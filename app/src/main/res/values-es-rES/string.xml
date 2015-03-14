@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chorb@genda</string>
+    <string name="action_settings">Configuración</string>
+    <string name="name">Nombre</string>
+    <string name="telephone">Teléfono</string>
+    <string name="address">Dirección</string>
+    <string name="save">Guardar</string>
+    <string name="delete">Borrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="add">Añadir</string>
+    <string name="empty_list_message">Lista de contactos vacia</string>
+    <string name="contact_added_message">Contacto %1$s añadido con éxito</string>
+    <string name="title_activity_list">Lista de contactos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_detail">Detalles</string>
+    <string name="title_activity_add_person">Añade un contacto</string>
+</resources>

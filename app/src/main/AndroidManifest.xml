@@ -1,0 +1,34 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.examen.chorbagendaad">
+
+    <application android:allowBackup="true" android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher" android:theme="@style/AppTheme">
+        <activity
+            android:name="es.examen.chorbagendaad.ui.activities.MainActivity"
+            android:label="@string/title_activity_list"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="es.examen.chorbagendaad.ui.activities.DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:parentActivityName="es.examen.chorbagendaad.ui.activities.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="es.examen.chorbagendaad.ui.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="es.examen.chorbagendaad.ui.activities.AddPersonActivity"
+            android:label="@string/title_activity_add_person"
+            android:parentActivityName="es.examen.chorbagendaad.ui.activities.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="es.examen.chorbagendaad.ui.activities.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.fernandez.carlos.chorbagenda.ui.activities.MainActivity">
+    <item android:id="@+id/settings" android:title="Settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>
